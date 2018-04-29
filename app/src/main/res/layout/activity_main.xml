@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:layout_width="414dp"
+        android:layout_height="685dp"
+        android:src="@drawable/cloud4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif"
+        android:text="Main Page"
+        android:textSize="35dp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <android.support.constraint.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="top" />
+
+    <Button
+        android:id="@+id/button"
+        style="@android:style/Widget.Holo.Button"
+        android:layout_width="95dp"
+        android:layout_height="45dp"
+        android:background="#ff4d4d"
+        android:text="Sign Out"
+        tools:layout_editor_absoluteX="283dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <Button
+        android:id="@+id/button4"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:background="#ff83fa"
+        android:text="Delete User Account"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/button8"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:background="#9400d3"
+        android:text="Join a Team"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/button7"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:background="#ff4500"
+        android:text="Edit user Profile"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/button6"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:background="#883b2e"
+        android:text="Team Communication Page"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/button5"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:background="#3333ff"
+        android:text="Draft Table"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="176dp" />
+
+    <Button
+        android:id="@+id/button11"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:background="#228b22"
+        android:text="MyTeam Support"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+    <Button
+        android:id="@+id/button10"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:background="#999966"
+        android:text="Leaderboard"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="428dp" />
+
+    <Button
+        android:id="@+id/button13"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:background="#ff8000"
+        android:text="Privacy Settings"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="344dp" />
+
+    <Button
+        android:id="@+id/button12"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:background="#ffff1a"
+        android:text="Create a Team"
+        tools:layout_editor_absoluteX="200dp"
+        tools:layout_editor_absoluteY="260dp" />
+
+    <Button
+        android:id="@+id/button9"
+        style="@android:style/Widget.Button.Transparent"
+        android:layout_width="168dp"
+        android:layout_height="67dp"
+        android:layout_marginLeft="10dp"
+        android:background="#80bfff"
+        android:text="Logo Design"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="92dp" />
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>
